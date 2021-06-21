@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mxtoh64-CV</title>
+        <link rel="stylesheet" href="mystylecss.css">
+    </head>
+    <body>
+        <center>
+            <div id="profie1">
+                <img class="profile" src="images/profile.png" alt="This is profile">
+                <h1>Lydia Tsai</h1>
+                <h3>國立中央大學資訊管理系</h3>
+                <a class="icon" href="https://www.facebook.com/" target="_blank"><img class="socialMedia" src="images/facebook.png" alt="This is facebook"></a> &nbsp;&nbsp;
+                <a class="icon" href="https://www.instagram.com/" target="_blank"><img class="socialMedia" src="images/instagram.png" alt="This is instagram"></a> &nbsp;&nbsp;
+                <a class="icon" href="https://twitter.com/" target="_blank"><img class="socialMedia" src="images/twitter.png" alt="This is twitter"></a>
+            </div>
+            <div id="skill">
+                <h3>My Skill:</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div id="interest">
+                <h3>My Interest:</h3>
+                <ol>
+                    <li>Sudoku</li>
+                    <li>Math</li>
+                    <li>Cooking</li>
+                    <li>Handicraft</li>
+                </ol>
+            </div>
+            <hr>
+            <h3>Contact Me!</h3>
+            <p>Say <b>everything</b> you want to</p>
+            <form name="input" action="" method="GET">
+                <p>Name:</p><input type="text" name="Name" size="24" placeholder="your name"><br>
+                <p>E-mail:</p><input type="text" name="Address" size="24" placeholder="your email"><br>
+                <p>Comment:</p><textarea name="comments" rows="5" cols="24" placeholder="comments"></textarea>
+            <br><input type="button" value="Submit" onclick="myfunction()">
+            <p id="click"></p>
+            <script>
+                function myfunction(){
+                    document.getElementById("click").innerHTML="Thank U!"
+                }
+            </script>
+        </center>
+        
+        
+    </body>
+</html>

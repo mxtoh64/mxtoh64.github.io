@@ -1,0 +1,35 @@
+/*設定背景色*/
+body{
+    
+    background-color: rgb(247, 225, 199);
+}
+/*設定顏色*/
+h1 , h3 ,li ,ol,p{
+    color: rgb(102, 79, 58);
+}
+/*設定profile寬度*/
+.profile{
+    width: 150px;
+    height: auto;
+}
+
+/*更改反白顏色*/
+::selection{
+    color: white;
+    background: rgb(102, 79, 58);;
+}
+/*更改字型*/
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*滑鼠移到icon時放大*/
+.icon img:hover{
+    width: 45px;
+}
+/*center-align list with left-align text*/
+ul,ol{
+    width: 100px;
+    margin: auto;
+    text-align: left;
+    display: inline-block;
+}
